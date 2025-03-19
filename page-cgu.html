@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="tarteaucitron/tarteaucitron.js"></script>
+    <script>
+    tarteaucitron.init({
+        "privacyUrl": "page-cookies.html", /* Privacy policy url */
+        "bodyPosition": "bottom", /* or top to bring it as first element for accessibility */
+    
+        "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
+        "cookieName": "tarteaucitron", /* Cookie name */
+    
+        "orientation": "middle", /* Banner position (top - bottom - middle - popup) */
+    
+        "groupServices": false, /* Group services by category */
+        "showDetailsOnClick": true, /* Click to expand the description */
+        "serviceDefaultState": "wait", /* Default state (true - wait - false) */
+    
+        "showAlertSmall": false, /* Show the small banner on bottom right */
+        "cookieslist": false, /* Show the cookie list */
+        
+        "showIcon": true, /* Show cookie icon to manage cookies */
+        // "iconSrc": "", /* Optional: URL or base64 encoded image */
+        "iconPosition": "BottomRight", /* Position of the icon between BottomRight, BottomLeft, TopRight and TopLeft */
+    
+        "adblocker": false, /* Show a Warning if an adblocker is detected */
+    
+        "DenyAllCta" : true, /* Show the deny all button */
+        "AcceptAllCta" : true, /* Show the accept all button when highPrivacy on */
+        "highPrivacy": true, /* HIGHLY RECOMMANDED Disable auto consent */
+        "alwaysNeedConsent": false, /* Ask the consent for "Privacy by design" services */
+        
+        "handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
+    
+        "removeCredit": false, /* Remove credit link */
+        "moreInfoLink": true, /* Show more info link */
+        "useExternalCss": false, /* If false, the tarteaucitron.css file will be loaded */
+        "useExternalJs": false, /* If false, the tarteaucitron.services.js file will be loaded */
+    
+        // "cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for subdomain website */
+    
+        "readmoreLink": "", /* Change the default readmore link pointing to tarteaucitron.io */
+        
+        "mandatory": true, /* Show a message about mandatory cookies */
+        "mandatoryCta": true, /* Show the disabled accept button when mandatory on */
+        
+        // "customCloserId": "", /* Optional a11y: Custom element ID used to open the panel */
+    
+        "googleConsentMode": true, /* Enable Google Consent Mode v2 for Google ads and GA4 */
+        
+        "partnersList": false /* Details the number of partners on the popup and middle banner */
+    });
+            </script>
+        <script>
+        tarteaucitron.user.googleFonts = 'families';
+        (tarteaucitron.job = tarteaucitron.job || []).push('googlefonts');
+        </script>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <!-- ajout de viewport-fit=cover pour permettre les safeareas, permet au contenu de s'étendre dans la zone de sécurité-->
+    <meta name="”theme-color”" content="#122317" />
+    <!-- Indique le thème de couleur du site, qui apparait sur les navigateurs compatibles-->
+    <title>Les Fils du Roi : conditions générales d'utilisation</title>
+    <meta
+      name="description"
+      content="Lisez les conditions générales d'utilisations du site Les Fils du Roi qui encadrent la relation entre les utilisateurs et le site."
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/icons/icone_mobile_fondsombre.svg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <div id="HeaderFlexHaut">
+        <!-- Bouton Langues  -->
+        <div id="Langues">
+          <p class="Langue" id="francais" tabindex="0">FR</p>
+          <p>|</p>
+          <p class="Langue" id="anglais" tabindex="0">ENG</p>
+        </div>
+        <!-- Logo  -->
+        <div class="Logo" id="HeaderLogo"><a aria-label="Page d'accueil" href="index.html" ></a></div>
+        <!-- menu burger-->
+        <div class="Burger" tabindex="0">
+          <div class="Ligne Ligne1"></div>
+          <div class="Ligne Ligne2"></div>
+          <div class="Ligne Ligne3"></div>
+        </div>
+
+        <section class="MenuNavOverlay">
+          <h2 class="TitreMasque">Les Fils du Roi</h2>
+          <div id="LogoEtWordmark">
+            <div id="ConteneurLogoNav">
+              <a aria-label="Page d'accueil" href="index.html" class="Logo"></a>
+            </div>
+            <img
+              id="Wordmark"
+              src="assets/images/wordmark_silver_fond_sombre.svg"
+              alt="Logo Les Fils du Roi"
+            />
+          </div>
+          <div id="ConteneurNav">
+            <div class="ConteneurNavLienAccueil">
+              <a aria-label="Page d'accueil"
+                id="NavLienAccueil"
+                href="index.html"
+                data-lang-fr="Accueil"
+                data-lang-en="Home"
+                >Accueil</a
+              >
+            </div>
+            <nav>
+              <div>
+                <a
+                  aria-label="Page À propos"
+                  href="page-apropos.html"
+                  data-lang-fr="À propos du projet "
+                  data-lang-en="About the project"
+                  >À propos du projet</a
+                >
+                <a
+                  aria-label="Page À propos section genèse"
+                  class="BoutonNavOverlay"
+                  href="page-apropos.html#TitrePageApropos"
+                  data-lang-fr="La genèse du projet"
+                  data-lang-en="The genesis of the project"
+                  >La genèse du projet</a
+                >
+                <a
+                  aria-label="Page À propos section auteur"
+                  class="BoutonNavOverlay"
+                  href="page-apropos.html#NavigationAuteur"
+                  data-lang-fr="Son auteur"
+                  data-lang-en="Its author"
+                  >Son auteur</a
+                >
+              </div>
+              <div>
+                <a
+                  aria-label="Page Univers"
+                  href="page-univers.html"
+                  data-lang-fr="Parcourez l'univers"
+                  data-lang-en="Travel the universe"
+                  >Parcourez l'univers</a
+                >
+                <a
+                  aria-label="Page Personnages"
+                  href="page-personnages.html"
+                  data-lang-fr="Personnages"
+                  data-lang-en="Characters"
+                  >Personnages</a
+                >
+                <a
+                  aria-label="Page Géographie"
+                  href="page-geographie.html"
+                  data-lang-fr="Géographie"
+                  data-lang-en="Geography"
+                  >Géographie</a
+                >
+                <a
+                  aria-label="Page Cultures"
+                  href="page-cultures.html"
+                  data-lang-fr="Cultures"
+                  data-lang-en="Culture"
+                  >Cultures</a
+                >
+                <a
+                  aria-label="Page Histoire"
+                  href="page-histoire.html"
+                  data-lang-fr="Histoire"
+                  data-lang-en="History"
+                  >Histoire</a
+                >
+              </div>
+              <div>
+                <a
+                  aria-label="Page Romans"
+                  href="page-romans.html"
+                  data-lang-fr="Les romans"
+                  data-lang-en="The novels"
+                  >Les romans</a
+                >
+                <a
+                  aria-label="Page Romans"
+                  class="BoutonNavOverlay"
+                  href="page-romans.html"
+                  data-lang-fr="Découvrir"
+                  data-lang-en="Discover"
+                  >Découvrir</a
+                >
+                <a
+                  aria-label="Page Romans"
+                  class="BoutonNavOverlay"
+                  href="page-romans.html"
+                  data-lang-fr="Acheter"
+                  data-lang-en="Purchase"
+                  >Acheter</a
+                >
+              </div>
+              <div>
+                <a
+                  aria-label="Page jeu de rôle, lobby"
+                  href="page-jdr-lobby.html"
+                  data-lang-fr="Le jeu de rôle"
+                  data-lang-en="The role play"
+                  >Le jeu de rôle</a
+                >
+                <a
+                  aria-label="Page jeu de rôle, mon compte"
+                  class="BoutonNavOverlay"
+                  href="page-jdr-lobby.html"
+                  data-lang-fr="Mon compte"
+                  data-lang-en="My account"
+                  >Mon compte</a
+                >
+                <a
+                  aria-label="Page jeu de rôle, ressources"
+                  class="BoutonNavOverlay"
+                  href="page-jdr-lobby.html"
+                  data-lang-fr="Ressources"
+                  data-lang-en="Ressources"
+                  >Ressources</a
+                >
+                <a
+                  aria-label="Page jeu de rôle, jouer"
+                  class="BoutonNavOverlay"
+                  href="page-jdr-lobby.html"
+                  data-lang-fr="Jouer"
+                  data-lang-en="Play"
+                >
+                  Jouer</a
+                >
+              </div>
+            </nav>
+            <div class="ConteneurNavLienAccueil"></div>
+          </div>
+          <div class="LiensLegaux" id="HeaderLiensLegaux">
+            <a aria-label="mentions légales"
+              href="page-mentionslegales.html"
+              data-lang-fr="Mentions légales"
+              data-lang-en="Legal notices"
+              >Mentions légales</a
+            >
+            <span>•</span>
+            <a aria-label="Page cookies"
+              href="page-cookies.html"
+              data-lang-fr="Gestion des cookies"
+              data-lang-en="Cookie management"
+              >Gestion des cookies</a
+            >
+            <span>•</span>
+            <a  aria-label="Page conditions générales d'utilisation" href="page-cgu.html" data-lang-fr="CGU" data-lang-en="GCU"
+              >CGU</a
+            >
+            <span>•</span>
+            <a aria-label="Page Politique de confidentialité"
+              href="page-confidentialite.html"
+              data-lang-fr="Politique de confidentialité"
+              data-lang-en="Privacy policy"
+              >Politique de confidentialité</a
+            >
+            <span>•</span>
+            <a aria-label="Page contact"
+              href="page-contact.html"
+              data-lang-fr="Contact"
+              data-lang-en="Contact"
+              >Contact</a
+            >
+          </div>
+          <div class="DiscordEtCookies" id="HeaderDiscordEtCookies">
+            <a aria-label="Lien du Discord" target="_blank" href="https://discord.gg/SZ7Vhb59"
+              ><svg
+                tabindex="0"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 50 50"
+              >
+                <path
+                  d="M42.298,11.65c-0.676-1.021-1.633-1.802-2.768-2.256c-2.464-0.988-4.583-1.648-6.479-2.02	C31.721,7.114,30.404,7.768,29.771,9l-0.158,0.308c-1.404-0.155-2.895-0.207-4.593-0.164c-1.741-0.042-3.237,0.009-4.643,0.164	L20.22,9c-0.633-1.232-1.952-1.885-3.279-1.625c-1.896,0.371-4.016,1.031-6.479,2.02c-1.134,0.454-2.091,1.234-2.768,2.256	c-4.721,7.131-6.571,14.823-5.655,23.517c0.032,0.305,0.202,0.578,0.461,0.741c3.632,2.29,6.775,3.858,9.891,4.936	c1.303,0.455,2.748-0.054,3.517-1.229l1.371-2.101c-1.092-0.412-2.158-0.9-3.18-1.483c-0.479-0.273-0.646-0.884-0.373-1.363	c0.273-0.481,0.884-0.65,1.364-0.373c3.041,1.734,6.479,2.651,9.942,2.651s6.901-0.917,9.942-2.651	c0.479-0.277,1.09-0.108,1.364,0.373c0.273,0.479,0.106,1.09-0.373,1.363c-1.056,0.603-2.16,1.105-3.291,1.524l1.411,2.102	c0.581,0.865,1.54,1.357,2.528,1.357c0.322,0,0.647-0.053,0.963-0.161c3.125-1.079,6.274-2.649,9.914-4.944	c0.259-0.163,0.429-0.437,0.461-0.741C48.869,26.474,47.019,18.781,42.298,11.65z M18.608,28.983c-1.926,0-3.511-2.029-3.511-4.495	c0-2.466,1.585-4.495,3.511-4.495s3.511,2.029,3.511,4.495C22.119,26.954,20.534,28.983,18.608,28.983z M31.601,28.957	c-1.908,0-3.478-2.041-3.478-4.522s1.57-4.522,3.478-4.522c1.908,0,3.478,2.041,3.478,4.522S33.509,28.957,31.601,28.957z"
+                />
+              </svg>
+            </a>
+            <img
+              class="tarteaucitronManager" 
+              tabindex="0"
+              src="assets/icons/icone-cookie.svg"
+              alt="Icone cookies"
+            />
+          </div>
+        </section>
+      </div>
+      <div id="HeaderFlexBas">
+        <!-- Icône Accessibilité  -->
+        <svg
+          class="IconesMenu"
+          id="IconeAccessibilite"
+          tabindex="0"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 15 15"
+        >
+          <title>Icône d'accessibilité</title>
+          <path
+            fill="currentColor"
+            fill-rule="evenodd"
+            d="M.877 7.5a6.623 6.623 0 1 1 13.246 0a6.623 6.623 0 0 1-13.246 0M7.5 1.827a5.673 5.673 0 1 0 0 11.346a5.673 5.673 0 0 0 0-11.346M7.125 9c-.055.127-.793 2.96-.793 2.96a.5.5 0 1 1-.966-.26s.88-2.827.88-3.43V6.801l-1.958-.525a.5.5 0 1 1 .258-.966s1.654.563 2.3.563h1.309c.645 0 2.298-.563 2.298-.563a.5.5 0 1 1 .26.966l-1.966.527V8.27c0 .603.88 3.427.88 3.427a.5.5 0 0 1-.966.259S7.92 9.127 7.869 9c-.05-.127-.219-.127-.219-.127h-.307s-.173 0-.218.127M7.5 5.12a1.125 1.125 0 1 0 0-2.25a1.125 1.125 0 0 0 0 2.25"
+            clip-rule="evenodd"
+          />
+        </svg>
+        <!-- Barre de Recherche   -->
+        <div id="BarreDeRecherche">
+          <input
+            type="text"
+            id="RechercheInput"
+            placeholder="Rechercher..."
+            data-lang-fr="Rechercher..."
+            data-lang-en="Search..."
+            aria-label="Barre de recherche"
+          />
+          <!-- Aria-label fournit des informations aux lecteurs d'écran-->
+          <button type="submit" aria-label="Bouton Rechercher">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <g transform="translate(0,0)">
+                <path
+                  d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z"
+                  fill="currentColor"
+                  fill-opacity="1"
+                  transform="translate(512, 0) scale(-1, 1) rotate(0, 256, 256) skewX(0) skewY(0)"
+                ></path>
+              </g>
+            </svg>
+          </button>
+          <div id="RechercheResultats"></div>
+        </div>
+        <!-- Icône Discord  -->
+        <a id="HeaderIconeDiscord" aria-label="Lien du Discord" target="_blank" href="https://discord.gg/SZ7Vhb59"
+          ><svg
+            class="IconesMenu"
+            tabindex="0"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 50 50"
+            width="50px"
+            height="50px"
+          >
+            <path
+              d="M42.298,11.65c-0.676-1.021-1.633-1.802-2.768-2.256c-2.464-0.988-4.583-1.648-6.479-2.02	C31.721,7.114,30.404,7.768,29.771,9l-0.158,0.308c-1.404-0.155-2.895-0.207-4.593-0.164c-1.741-0.042-3.237,0.009-4.643,0.164	L20.22,9c-0.633-1.232-1.952-1.885-3.279-1.625c-1.896,0.371-4.016,1.031-6.479,2.02c-1.134,0.454-2.091,1.234-2.768,2.256	c-4.721,7.131-6.571,14.823-5.655,23.517c0.032,0.305,0.202,0.578,0.461,0.741c3.632,2.29,6.775,3.858,9.891,4.936	c1.303,0.455,2.748-0.054,3.517-1.229l1.371-2.101c-1.092-0.412-2.158-0.9-3.18-1.483c-0.479-0.273-0.646-0.884-0.373-1.363	c0.273-0.481,0.884-0.65,1.364-0.373c3.041,1.734,6.479,2.651,9.942,2.651s6.901-0.917,9.942-2.651	c0.479-0.277,1.09-0.108,1.364,0.373c0.273,0.479,0.106,1.09-0.373,1.363c-1.056,0.603-2.16,1.105-3.291,1.524l1.411,2.102	c0.581,0.865,1.54,1.357,2.528,1.357c0.322,0,0.647-0.053,0.963-0.161c3.125-1.079,6.274-2.649,9.914-4.944	c0.259-0.163,0.429-0.437,0.461-0.741C48.869,26.474,47.019,18.781,42.298,11.65z M18.608,28.983c-1.926,0-3.511-2.029-3.511-4.495	c0-2.466,1.585-4.495,3.511-4.495s3.511,2.029,3.511,4.495C22.119,26.954,20.534,28.983,18.608,28.983z M31.601,28.957	c-1.908,0-3.478-2.041-3.478-4.522s1.57-4.522,3.478-4.522c1.908,0,3.478,2.041,3.478,4.522S33.509,28.957,31.601,28.957z"
+            />
+          </svg>
+        </a>
+      </div>
+    </header>
+    <main class="PagesLegales">
+        <h1 data-lang-fr="Conditions Générales d'Utilisation" data-lang-en="General Conditions of Use">Conditions Générales d'Utilisation</h1>
+        <h2 data-lang-fr="Introduction" data-lang-en="Introduction">Introduction</h2>
+        <p
+          data-lang-fr="Les présentes Conditions Générales d&apos;Utilisation (CGU) régissent l&apos;accès et l&apos;utilisation du site web Les Fils du Roi, accessible à l&apos;adresse suivante : https://www.lesfilsduroi.fr. En accédant et en naviguant sur ce site, l&apos;utilisateur accepte sans réserve les présentes CGU.
+          &lt;/br&gt;
+          L&apos;utilisateur reconnaît avoir pris connaissance des CGU et s&apos;engage à les respecter."
+          data-lang-en="The present General Conditions of Use (GCU) govern access to and use of the website 'Les Fils du Roi,' available at the following address: https://www.lesfilsduroi.fr. By accessing and browsing this site, the user unreservedly accepts these GTU.
+          &lt;/br&gt;
+          The user acknowledges having read the GTU and agrees to comply with them.
+          "> 
+          Les présentes Conditions Générales d'Utilisation (CGU) régissent l'accès et l'utilisation du site web Les Fils du Roi, accessible à l'adresse suivante : https://www.lesfilsduroi.fr. En accédant et en naviguant sur ce site, l'utilisateur accepte sans réserve les présentes CGU.
+          </br>
+          L'utilisateur reconnaît avoir pris connaissance des CGU et s'engage à les respecter.
+        </p>
+        <h2 data-lang-fr="Mentions légales" data-lang-en="Legal notices">Mentions légales</h2>
+        <p
+          data-lang-fr="Conformément aux dispositions des articles 6-III et 19 de la Loi n° 2004-575 du 21 juin 2004 pour la Confiance dans l'économie numérique (LCEN), nous portons à la connaissance des utilisateurs et visiteurs du site Les Fils du Roi les informations suivantes:&lt;br&gt;
+          &lt;strong&gt;Nom du site :&lt;/strong&gt; Les Fils du Roi&lt;br&gt;
+          &lt;strong&gt;URL du site :&lt;/strong&gt; https://www.lesfilsduroi.fr&lt;br&gt;
+          &lt;strong&gt;Propriétaire :&lt;/strong&gt; Gauthier Glad-Chambet&lt;br&gt;
+          &lt;strong&gt;Adresse :&lt;/strong&gt; 13 rue du Brochet 67300 Schiltigheim&lt;br&gt;
+          &lt;strong&gt;Contact :&lt;/strong&gt; gauthier.glad-chambet@outlook.fr&lt;br&gt;
+          &lt;strong&gt;Responsable de la publication :&lt;/strong&gt; Gauthier Glad-Chambet (contact : gauthier.glad-chambet@outlook.fr)&lt;br&gt;
+          &lt;strong&gt;Hébergeur :&lt;/strong&gt;&lt;br&gt;
+          &nbsp;&nbsp;&nbsp;&nbsp;Nom : XXXXXXX&lt;br&gt;
+          &nbsp;&nbsp;&nbsp;&nbsp;Adresse : XXXXXXXXXXX&lt;br&gt;
+          &nbsp;&nbsp;&nbsp;&nbsp;Contact : XXXXXXXXXXX&lt;br&gt;
+          &lt;br&gt;
+          Pour toute question concernant le site ou les présentes CGU, vous pouvez nous contacter à l'adresse suivante :"
+          data-lang-en="In accordance with the provisions of articles 6-III and 19 of Law No. 2004-575 of June 21, 2004 on Trust in the Digital Economy (LCEN), we inform users and visitors of the Les Fils du Roi website of the following information:&lt;br&gt;
+          &lt;strong&gt;Website name:&lt;/strong&gt; Les Fils du Roi&lt;br&gt;
+          &lt;strong&gt;Website URL:&lt;/strong&gt; https://www.lesfilsduroi.fr&lt;br&gt;
+          &lt;strong&gt;Owner:&lt;/strong&gt; Gauthier Glad-Chambet&lt;br&gt;
+          &lt;strong&gt;Address:&lt;/strong&gt; 13 rue du Brochet 67300 Schiltigheim&lt;br&gt;
+          &lt;strong&gt;Contact:&lt;/strong&gt; gauthier.glad-chambet@outlook.fr&lt;br&gt;
+          &lt;strong&gt;Publication Manager:&lt;/strong&gt; Gauthier Glad-Chambet (contact: gauthier.glad-chambet@outlook.fr)&lt;br&gt;
+          &lt;strong&gt;Host:&lt;/strong&gt;&lt;br&gt;
+          &nbsp;&nbsp;&nbsp;&nbsp;Name: XXXXXXX&lt;br&gt;
+          &nbsp;&nbsp;&nbsp;&nbsp;Address: XXXXXXXXXXX&lt;br&gt;
+          &nbsp;&nbsp;&nbsp;&nbsp;Contact: XXXXXXXXXXX&lt;br&gt;
+          &lt;br&gt;
+          For any questions regarding the website or the present Terms of Use, you can contact us at the following address:
+          ">
+            Conformément aux dispositions des articles 6-III et 19 de la Loi n° 2004-575 du 21 juin 2004 pour la Confiance dans l'économie numérique (LCEN), nous portons à la connaissance des utilisateurs et visiteurs du site Les Fils du Roi les informations suivantes :
+            </br>
+            <strong>Nom du site :</strong> Les Fils du Roi
+            </br>
+            <strong>URL du site :</strong> https://www.lesfilsduroi.fr
+           </br>
+           <strong>Propriétaire :</strong> Gauthier Glad-Chambet
+            </br>
+            <strong>Adresse :</strong> 13 rue du Brochet 67300 Schiltigheim
+            </br>
+            <strong>Contact :</strong> gauthier.glad-chambet@outlook.fr
+            </br>
+            <strong>Responsable de la publication :</strong> Gauthier Glad-Chambet (contact : gauthier.glad-chambet@outlook.fr)
+            </br>
+            <strong>Hébergeur :</strong>
+            </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Nom : XXXXXXX
+            </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Adresse : XXXXXXXXXXX
+            </br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Contact : XXXXXXXXXXX
+            </br>
+            </br>
+            Pour toute question concernant le site ou les présentes CGU, vous pouvez nous contacter à l'adresse suivante :
+            <a aria-label="Adresse mail les Fils du Roi" href="mailto:lesfilsduroi@outlook.fr">lesfilsduroi@outlook.fr</a>.
+        </p>
+        <h2 data-lang-fr="Accès au site" data-lang-en="Access to the site">Accès au site</h2>
+        <p
+          data-lang-fr="L'accès au site est réservé à toute personne disposant d'une connexion Internet. L'utilisateur est responsable de son équipement informatique, ainsi que de son accès à Internet. Le site est accessible 24 heures sur 24, sauf en cas de force majeure ou de maintenance programmée."
+          data-lang-en="Access to the site is reserved for anyone with an Internet connection. The user is responsible for his computer equipment, as well as his access to the Internet. The site is accessible 24 hours a day, except in cases of force majeure or scheduled maintenance.">
+          L'accès au site est réservé à toute personne disposant d'une connexion Internet. L'utilisateur est responsable de son équipement informatique, ainsi que de son accès à Internet. Le site est accessible 24 heures sur 24, sauf en cas de force majeure ou de maintenance programmée.
+        </p>
+        <h2
+          data-lang-fr="Propriété intellectuelle"
+          data-lang-en="Intellectual property">
+          Propriété intellectuelle
+        </h2>
+        <p
+          data-lang-fr="Le site Les Fils du Roi ainsi que son contenu (textes, images, graphismes, logo, icônes, vidéos, etc.) sont protégés par les lois en vigueur sur la propriété intellectuelle. Certaines images présentes sur ce site proviennent de la banque d'image Adobe Stock et sont sous licence strandard, d'autres ont été générées par un générateur d'images basé sur l'intelligence artificielle, tandis que les logos ont été créés par l'auteur du site. Les différentes icônes proviennent de banques d'icônes (game-icon.net ; freepik.com ; stock.adobe.com). Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable.&lt;br&gt;&lt;br&gt;Toute exploitation non autorisée du site ou de l'un quelconque des éléments qu'il contient sera considérée comme constitutive d'une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de la propriété intellectuelle."
+          data-lang-en="The Les Fils du Roi website and its content (texts, images, graphics, logo, icons, videos, etc.) are protected by intellectual property laws. Some images on this site come from the Adobe Stock image bank and are under the Stantard license, others have been generated by an AI-based image generator, while the logos were created by the website author. The various icons come from icon banks (game-icon.net; freepik.com ; stock.adobe.com). Any reproduction, representation, modification, publication, adaptation of any part of the site, by any means or process, is prohibited unless prior written authorization is given.&lt;br&gt;&lt;br&gt;Any unauthorized use of the site or any of its elements will be considered a counterfeit and prosecuted in accordance with the provisions of articles L.335-2 and following of the Intellectual Property Code.">
+          Le site Les Fils du Roi ainsi que son contenu (textes, images, graphismes, logo, icônes, vidéos, etc.) sont protégés par les lois en vigueur sur la propriété intellectuelle. Certaines images présentes sur ce site proviennent de la banque d'image Adobe Stock et sont sous licence strandard, d'autres ont été générées par un générateur d'images basé sur l'intelligence artificielle, tandis que les logos ont été créés par l'auteur du site. Les différentes icônes proviennent de banques d'icônes (game-icon.net ; freepik.com ; stock.adobe.com). Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable.
+          </br>
+          </br>
+          Toute exploitation non autorisée du site ou de l'un quelconque des éléments qu'il contient sera considérée comme constitutive d'une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de la propriété intellectuelle.
+        </p>
+        <h2
+          data-lang-fr="Responsabilité de l'utilisateur"
+          data-lang-en="User responsibility">
+          Responsabilité de l'utilisateur
+        </h2>
+        <p
+          data-lang-fr="L'utilisateur s'engage à utiliser le site de manière conforme aux lois et règlements en vigueur. Il s'interdit notamment de :
+          "
+          data-lang-en="The user undertakes to use the site in accordance with the laws and regulations in force. In particular, it is prohibited from:">
+          L'utilisateur s'engage à utiliser le site de manière conforme aux lois et règlements en vigueur. Il s'interdit notamment de :
+        </p>
+        <ul>
+            <li
+              data-lang-fr="Perturber ou interrompre le fonctionnement du site,"
+              data-lang-en="Disrupt or interrupt the operation of the site,">
+              Perturber ou interrompre le fonctionnement du site,
+            </li>
+            <li
+              data-lang-fr="Diffuser du contenu illicite, notamment discriminatoire, diffamatoire, injurieux ou contraire à l'ordre public,"
+              data-lang-en="Disseminate illegal content, in particular discriminatory, defamatory, offensive or contrary to public order,">
+              Diffuser du contenu illicite, notamment discriminatoire, diffamatoire, injurieux ou contraire à l'ordre public,
+            </li>
+            <li
+              data-lang-fr="Contourner ou tenter de contourner les systèmes de sécurité du site."
+              data-lang-en="Circumvent or attempt to circumvent the Site's security systems.">
+              Contourner ou tenter de contourner les systèmes de sécurité du site.
+            </li>
+        </ul>
+        </br>
+        <p
+          data-lang-fr="L'utilisateur est responsable des conséquences de ses actes en ligne et de toute utilisation frauduleuse de ses identifiants de connexion (le cas échéant)."
+          data-lang-en="The user is responsible for the consequences of his online actions and any fraudulent use of his login credentials (if applicable).">
+          L'utilisateur est responsable des conséquences de ses actes en ligne et de toute utilisation frauduleuse de ses identifiants de connexion (le cas échéant).
+        </p>
+        <h2
+          data-lang-fr="Collecte et protection des données personnelles"
+          data-lang-en="Collection and protection of personal data">
+          Collecte et protection des données personnelles
+        </h2>
+        <p
+          data-lang-fr="Le site collecte des données personnelles de ses utilisateurs conformément à sa &lt;a href=&quot;page-confidentialite.html&quot; target=&quot;_blank&quot;&gt;Politique de confidentialité&lt;/a&gt;. Ces données sont nécessaires pour la gestion de l'accès et des services proposés sur le site. L'utilisateur dispose d'un droit d'accès, de rectification, de suppression et d'opposition sur ses données personnelles, conformément aux lois en vigueur.&lt;br&gt;Le traitement des données personnelles est effectué dans le respect du &lt;strong&gt;Règlement Général sur la Protection des Données (RGPD)&lt;/strong&gt;."
+          data-lang-en="The site collects personal data from its users in accordance with its &lt;a href=&quot;page-confidentialite.html&quot; target=&quot;_blank&quot;&gt;Privacy policy&lt;/a&gt;. This data is necessary for managing access and services provided on the site. Users have the right to access, rectify, delete, and object to their personal data, in compliance with current laws.&lt;br&gt;The processing of personal data is carried out in compliance with the &lt;strong&gt;General Data Protection Regulation (GDPR)&lt;/strong&gt;.">
+          Le site collecte des données personnelles de ses utilisateurs conformément à sa <a aria-label="page politique de confidentialité" href="page-confidentialite.html" target="_blank">Politique de confidentialité</a>. Ces données sont nécessaires pour la gestion de l'accès et des services proposés sur le site. L'utilisateur dispose d'un droit d'accès, de rectification, de suppression et d'opposition sur ses données personnelles, conformément aux lois en vigueur.
+          </br>
+          Le traitement des données personnelles est effectué dans le respect du <strong>Règlement Général sur la Protection des Données (RGPD)</strong>.
+        </p>
+        <h2
+          data-lang-fr="Cookies"
+          data-lang-en="Cookies">
+          Cookies
+        </h2>
+        <p
+          data-lang-fr="Le site utilise des cookies pour améliorer l'expérience utilisateur. Ces cookies permettent notamment d'analyser la fréquentation du site, d'afficher des contenus personnalisés ou de mémoriser les préférences de l'utilisateur.&lt;br&gt;L'utilisateur peut configurer son navigateur pour refuser les cookies ou les supprimer. Cependant, certaines fonctionnalités du site peuvent ne pas être disponibles sans l'acceptation des cookies.&lt;br&gt;Pour plus d'informations sur les cookies utilisés, veuillez consulter notre &lt;a href=&quot;page-confidentialite.html&quot; target=&quot;_blank&quot;&gt;Politique de confidentialité&lt;/a&gt;."
+          data-lang-en="The site uses cookies to improve the user experience. These cookies are used in particular to analyze site traffic, display personalized content, or remember user preferences.&lt;br&gt;The user can configure their browser to refuse cookies or delete them. However, some features of the site may not be available without accepting cookies.&lt;br&gt;For more information about the cookies used, please refer to our &lt;a href=&quot;page-confidentialite.html&quot; target=&quot;_blank&quot;&gt;Privacy policy&lt;/a&gt;.">
+          Le site utilise des cookies pour améliorer l'expérience utilisateur. Ces cookies permettent notamment d'analyser la fréquentation du site, d'afficher des contenus personnalisés ou de mémoriser les préférences de l'utilisateur.
+          </br>
+          L'utilisateur peut configurer son navigateur pour refuser les cookies ou les supprimer. Cependant, certaines fonctionnalités du site peuvent ne pas être disponibles sans l'acceptation des cookies.
+          </br>
+          Pour plus d'informations sur les cookies utilisés, veuillez consulter notre <a aria-label="page Politique de confidentialité" href="page-confidentialite.html" target="_blank">Politique de confidentialité</a>.
+        </p>
+        <h2
+          data-lang-fr="Liens vers des sites tiers"
+          data-lang-en="Links to third party sites">
+          Liens vers des sites tiers
+        </h2>
+        <p
+          data-lang-fr="Le site peut contenir des liens hypertextes vers des sites tiers. Ces liens sont fournis uniquement à titre de commodité et ne signifient pas que &apos;Les Fils du Roi&apos; approuve ou contrôle le contenu des sites en question.&lt;br&gt;En aucun cas, &apos;Les Fils du Roi&apos; ne saurait être tenue responsable du contenu des sites tiers ni des conséquences de leur utilisation par les utilisateurs."
+          data-lang-en="The site may contain hyperlinks to third-party websites. These links are provided solely for convenience and do not imply that &apos;Les Fils du Roi&apos; approves or controls the content of the linked sites.&lt;br&gt;Under no circumstances shall &apos;Les Fils du Roi&apos; be held responsible for the content of third-party websites or the consequences of their use by users.">
+          Le site peut contenir des liens hypertextes vers des sites tiers. Ces liens sont fournis uniquement à titre de commodité et ne signifient pas que 'Les Fils du Roi' approuve ou contrôle le contenu des sites en question.
+          </br>
+          En aucun cas, 'Les Fils du Roi' ne saurait être tenue responsable du contenu des sites tiers ni des conséquences de leur utilisation par les utilisateurs.
+        </p>
+        <h2
+          data-lang-fr="Modification des CGU"
+          data-lang-en="Modification of the GCU">
+          Modification des CGU
+        </h2>
+        <p
+          data-lang-fr="Les présentes CGU peuvent être modifiées à tout moment. Les utilisateurs sont invités à consulter régulièrement cette page pour prendre connaissance des éventuelles modifications. Toute modification prendra effet dès sa publication sur le site."
+          data-lang-en="These Terms of Use may be modified at any time. Users are encouraged to regularly check this page to stay informed of any changes. Any modification will take effect as soon as it is published on the website.">
+          Les présentes CGU peuvent être modifiées à tout moment. Les utilisateurs sont invités à consulter régulièrement cette page pour prendre connaissance des éventuelles modifications. Toute modification prendra effet dès sa publication sur le site.
+        </p>
+        <h2
+          data-lang-fr="Loi applicable et juridiction compétente"
+          data-lang-en="Applicable law and jurisdiction">
+          Loi applicable et juridiction compétente
+        </h2>
+        <p
+          data-lang-fr="Les présentes CGU sont régies par le droit français. En cas de litige concernant l'interprétation ou l'exécution des CGU, les tribunaux français seront compétents, sauf disposition contraire d'ordre public."
+          data-lang-en="These Terms of Use are governed by French law. In the event of a dispute regarding the interpretation or execution of the Terms of Use, French courts shall have jurisdiction, unless otherwise provided by mandatory public law provisions.">
+          Les présentes CGU sont régies par le droit français. En cas de litige concernant l'interprétation ou l'exécution des CGU, les tribunaux français seront compétents, sauf disposition contraire d'ordre public.
+        </p>
+        <h2
+          data-lang-fr="Disponibilité et interruption du site"
+          data-lang-en="Availability and website downtime">
+          Disponibilité et interruption du site
+        </h2>
+        <p
+          data-lang-fr=" Le site peut être temporairement suspendu ou interrompu pour maintenance, mise à jour ou pour toute autre raison indépendante de la volonté de 'Les Fils du Roi'. 'Les Fils du Roi' ne pourra être tenu responsable des interruptions du service."
+          data-lang-en="The site may be temporarily suspended or interrupted for maintenance, updates, or for any other reason beyond the control of 'Les Fils du Roi'. 'Les Fils du Roi' shall not be held responsible for service interruptions.">
+          Le site peut être temporairement suspendu ou interrompu pour maintenance, mise à jour ou pour toute autre raison indépendante de la volonté de 'Les Fils du Roi'. 'Les Fils du Roi' ne pourra être tenu responsable des interruptions du service.
+        </p>
+        <h2
+          data-lang-fr="Limitation de responsabilité"
+          data-lang-en="Limitation of liability">
+          Limitation de responsabilité
+        </h2>
+        <p
+          data-lang-fr="Les Fils du Roi s'efforce de fournir des informations exactes et mises à jour, mais ne peut garantir l'exactitude, l'exhaustivité ou la pertinence de ces informations. L'utilisation des informations présentes sur le site se fait sous l'entière responsabilité de l'utilisateur.&lt;br&gt;Les Fils du Roi ne saurait être tenu responsable des dommages directs ou indirects résultant de l'utilisation ou de l'incapacité d'utiliser le site, y compris les pertes de données, les virus ou autres éléments nuisibles.&lt;br&gt;&lt;br&gt;Dernière mise à jour : 14/01/2025"
+          data-lang-en="Les Fils du Roi strives to provide accurate and up-to-date information, but cannot guarantee the accuracy, completeness, or relevance of such information. The use of information on the site is done at the user&apos;s own risk. 'Les Fils du Roi' shall not be held responsible for any direct or indirect damages resulting from the use or inability to use the site, including data loss, viruses, or other harmful elements.&lt;br&gt;&lt;br&gt;Last updated: 14/01/2025">
+          Les Fils du Roi s'efforce de fournir des informations exactes et mises à jour, mais ne peut garantir l'exactitude, l'exhaustivité ou la pertinence de ces informations. L'utilisation des informations présentes sur le site se fait sous l'entière responsabilité de l'utilisateur.
+          </br>
+          Les Fils du Roi ne saurait être tenu responsable des dommages directs ou indirects résultant de l'utilisation ou de l'incapacité d'utiliser le site, y compris les pertes de données, les virus ou autres éléments nuisibles.
+          </br>
+          </br>
+          Dernière mise à jour : 14/01/2025
+        </p>
+        </br>
+        </br>
+        <img id="FlecheHaut" src="assets/icons/fleche_haut.png" alt="Flèche de retour en haut de page"/>
+    </main>
+<!-- Footer -->
+<footer>
+  <nav>
+    <div>
+      <a aria-label="page univers"
+        href="page-univers.html"
+        data-lang-fr="Univers"
+        data-lang-en="Univers"
+        >Univers</a
+      >
+      <a aria-label="page personnages"
+        href="page-personnages.html"
+        data-lang-fr="Personnages"
+        data-lang-en="Characters"
+        >Personnages</a
+      >
+      <a aria-label="page Géographie"
+        href="page-geographie.html"
+        data-lang-fr="Géographie"
+        data-lang-en="geography"
+        >Géographie</a
+      >
+      <a aria-label="page Cultures"
+        href="page-cultures.html"
+        data-lang-fr="Cultures"
+        data-lang-en="Culture"
+        >Cultures</a
+      >
+      <a aria-label="page Histoire"
+        href="page-histoire.html"
+        data-lang-fr="Histoire"
+        data-lang-en="History"
+        >Histoire</a
+      >
+    </div>
+    <div>
+      <a aria-label="page À propos"
+        href="page-apropos.html"
+        data-lang-fr="À propos"
+        data-lang-en="About"
+        >À propos</a
+      >
+      <a aria-label="page À propos section genèse"
+        href="page-apropos.html#TitrePageApropos"
+        data-lang-fr="Genèse"
+        data-lang-en="Genesis"
+        >Genèse</a
+      >
+      <a aria-label="page À propos section auteur"
+        href="page-apropos.html#NavigationAuteur"
+        data-lang-fr="Auteur"
+        data-lang-en="Author"
+        >Auteur</a
+      >
+    </div>
+    <div>
+      <a aria-label="page Accueil" href="index.html" data-lang-fr="Accueil" data-lang-en="Home"
+        >Accueil</a
+      >
+      <a aria-label="page Accueil" href="index.html"
+        ><img
+          class="Logo"
+          src="assets/icons/logo.svg"
+          alt="Logo Les Fils du Roi"
+      /></a>
+    </div>
+    <div>
+      <a aria-label="page Romans" href="page-romans.html" data-lang-fr="Romans" data-lang-en="Novels"
+        >Romans</a
+      >
+      <a aria-label="page Romans"
+        href="page-romans.html"
+        data-lang-fr="Découvrir"
+        data-lang-en="Discover"
+        >Découvrir</a
+      >
+      <a aria-label="page Romans"
+        href="page-romans.html"
+        data-lang-fr="Acheter"
+        data-lang-en="Purchase"
+        >Acheter</a
+      >
+    </div>
+    <div>
+      <a aria-label="page Jeu de Rôle"
+        href="page-jdr-lobby.html"
+        data-lang-fr="Jeu de rôle"
+        data-lang-en="Role play"
+        >Jeu de rôle</a
+      >
+      <a aria-label="page jeu de Rôle, mon compte"
+        href="page-jdr-lobby.html"
+        data-lang-fr="Mon compte"
+        data-lang-en="My account"
+        >Mon compte</a
+      >
+      <a aria-label="page jeu de Rôle, resources"
+        href="page-jdr-lobby.html"
+        data-lang-fr="Ressources"
+        data-lang-en="Resources"
+        >Ressources</a
+      >
+      <a aria-label="page jeu de Rôle, jouer" href="page-jdr-lobby.html" data-lang-fr="Jouer" data-lang-en="Play"
+        >Jouer</a
+      >
+    </div>
+  </nav>
+  <div class="LiensLegaux">
+    <a aria-label="page mentions légales"
+      href="page-mentionslegales.html"
+      data-lang-fr="Mentions légales"
+      data-lang-en="Legal notices"
+      >Mentions légales</a
+    >
+    <span>•</span>
+    <a aria-label="page cookies"
+      href="page-cookies.html"
+      data-lang-fr="Gestion des cookies"
+      data-lang-en="Cookie management"
+      >Gestion des cookies</a
+    >
+    <span>•</span>
+    <a aria-label="page conditions générales d'utilisation" href="page-cgu.html" data-lang-fr="CGU" data-lang-en="GCU">CGU</a>
+    <span>•</span>
+    <a aria-label="page politique de confidentialité"
+      href="page-confidentialite.html"
+      data-lang-fr="Politique de confidentialité"
+      data-lang-en="Privacy policy"
+      >Politique de confidentialité</a
+    >
+    <span>•</span>
+    <a aria-label="page contact"
+      href="page-contact.html"
+      data-lang-fr="Contact"
+      data-lang-en="Contact"
+      >Contact</a
+    >
+  </div>
+  <div class="DiscordEtCookies">
+    <a aria-label="lien Discord" target="_blank" href="https://discord.gg/SZ7Vhb59"
+      ><svg
+        tabindex="0"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 50 50"
+      >
+        <path
+          d="M42.298,11.65c-0.676-1.021-1.633-1.802-2.768-2.256c-2.464-0.988-4.583-1.648-6.479-2.02	C31.721,7.114,30.404,7.768,29.771,9l-0.158,0.308c-1.404-0.155-2.895-0.207-4.593-0.164c-1.741-0.042-3.237,0.009-4.643,0.164	L20.22,9c-0.633-1.232-1.952-1.885-3.279-1.625c-1.896,0.371-4.016,1.031-6.479,2.02c-1.134,0.454-2.091,1.234-2.768,2.256	c-4.721,7.131-6.571,14.823-5.655,23.517c0.032,0.305,0.202,0.578,0.461,0.741c3.632,2.29,6.775,3.858,9.891,4.936	c1.303,0.455,2.748-0.054,3.517-1.229l1.371-2.101c-1.092-0.412-2.158-0.9-3.18-1.483c-0.479-0.273-0.646-0.884-0.373-1.363	c0.273-0.481,0.884-0.65,1.364-0.373c3.041,1.734,6.479,2.651,9.942,2.651s6.901-0.917,9.942-2.651	c0.479-0.277,1.09-0.108,1.364,0.373c0.273,0.479,0.106,1.09-0.373,1.363c-1.056,0.603-2.16,1.105-3.291,1.524l1.411,2.102	c0.581,0.865,1.54,1.357,2.528,1.357c0.322,0,0.647-0.053,0.963-0.161c3.125-1.079,6.274-2.649,9.914-4.944	c0.259-0.163,0.429-0.437,0.461-0.741C48.869,26.474,47.019,18.781,42.298,11.65z M18.608,28.983c-1.926,0-3.511-2.029-3.511-4.495	c0-2.466,1.585-4.495,3.511-4.495s3.511,2.029,3.511,4.495C22.119,26.954,20.534,28.983,18.608,28.983z M31.601,28.957	c-1.908,0-3.478-2.041-3.478-4.522s1.57-4.522,3.478-4.522c1.908,0,3.478,2.041,3.478,4.522S33.509,28.957,31.601,28.957z"
+        />
+      </svg>
+    </a>
+    <img
+      class="tarteaucitronManager"
+      tabindex="0"
+      src="assets/icons/icone-cookie.svg"
+      alt="Icone cookies"
+      
+    />
+  </div>
+</footer>
+<script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="tarteaucitron/tarteaucitron.js"></script>
+    <script>
+      tarteaucitron.init({
+        privacyUrl: "page-cookies.html" /* Privacy policy url */,
+        bodyPosition:
+          "bottom" /* or top to bring it as first element for accessibility */,
+
+        hashtag: "#tarteaucitron" /* Open the panel with this hashtag */,
+        cookieName: "tarteaucitron" /* Cookie name */,
+
+        orientation:
+          "middle" /* Banner position (top - bottom - middle - popup) */,
+
+        groupServices: false /* Group services by category */,
+        showDetailsOnClick: true /* Click to expand the description */,
+        serviceDefaultState: "wait" /* Default state (true - wait - false) */,
+
+        showAlertSmall: false /* Show the small banner on bottom right */,
+        cookieslist: false /* Show the cookie list */,
+
+        showIcon: true /* Show cookie icon to manage cookies */,
+        // "iconSrc": "", /* Optional: URL or base64 encoded image */
+        iconPosition:
+          "BottomRight" /* Position of the icon between BottomRight, BottomLeft, TopRight and TopLeft */,
+
+        adblocker: false /* Show a Warning if an adblocker is detected */,
+
+        DenyAllCta: true /* Show the deny all button */,
+        AcceptAllCta: true /* Show the accept all button when highPrivacy on */,
+        highPrivacy: true /* HIGHLY RECOMMANDED Disable auto consent */,
+        alwaysNeedConsent: false /* Ask the consent for "Privacy by design" services */,
+
+        handleBrowserDNTRequest: false /* If Do Not Track == 1, disallow all */,
+
+        removeCredit: false /* Remove credit link */,
+        moreInfoLink: true /* Show more info link */,
+        useExternalCss: false /* If false, the tarteaucitron.css file will be loaded */,
+        useExternalJs: false /* If false, the tarteaucitron.services.js file will be loaded */,
+
+        // "cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for subdomain website */
+
+        readmoreLink:
+          "" /* Change the default readmore link pointing to tarteaucitron.io */,
+
+        mandatory: true /* Show a message about mandatory cookies */,
+        mandatoryCta: true /* Show the disabled accept button when mandatory on */,
+
+        // "customCloserId": "", /* Optional a11y: Custom element ID used to open the panel */
+
+        googleConsentMode: true /* Enable Google Consent Mode v2 for Google ads and GA4 */,
+
+        partnersList: false /* Details the number of partners on the popup and middle banner */,
+      });
+    </script>
+    <script>
+      tarteaucitron.user.googleFonts = "families";
+      (tarteaucitron.job = tarteaucitron.job || []).push("googlefonts");
+    </script>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <!-- ajout de viewport-fit=cover pour permettre les safeareas, permet au contenu de s'étendre dans la zone de sécurité-->
+    <meta name="”theme-color”" content="#122317" />
+    <!-- Indique le thème de couleur du site, qui apparait sur les navigateurs compatibles-->
+    <title>
+      Les Fils du Roi : partez à la découverte d'un univers captivant !
+    </title>
+    <meta
+      name="description"
+      content="Découvrez les Fils du Roi, un univers captivant à la croisée des destins : longez dans cette aventure immersive dès maintenant !"
+    />
+
+    <!-- Pour afficher un aperçu personnalisé quand partage le lien du site sur les plateformes comme Messenger ou Whatsapp -->
+    <meta
+      property="og:title"
+      content="Les Fils du Roi : partez à la découverte d'un univers captivant !"
+    />
+    <meta property="og:description" content="Entrez dans un monde mystérieux" />
+    <meta
+      property="og:image"
+      content="assets/images/logo_blanc_et_or_ombre_768x180.png"
+    />
+    <meta
+      property="og:url"
+      content="https://dpmn-a.ccinum.fr/glad-chambet-gauthier/Site%20web%20-%20Les%20Fils%20du%20Roi/"
+    />
+    <meta property="og:type" content="website" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/icons/icone_mobile_fondsombre.svg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header id="IndexHeader">
+      <div id="HeaderFlexHaut">
+        <!-- Bouton Langues  -->
+        <div id="Langues">
+          <p class="Langue" id="francais" tabindex="0">FR</p>
+          <p>|</p>
+          <p class="Langue" id="anglais" tabindex="0">ENG</p>
+        </div>
+        <!-- Logo  -->
+        <div class="Logo" id="HeaderLogo">
+          <a aria-label="Page d'accueil" href="index.html"></a>
+        </div>
+        <!-- menu burger-->
+        <div class="Burger" tabindex="0">
+          <div class="Ligne Ligne1"></div>
+          <div class="Ligne Ligne2"></div>
+          <div class="Ligne Ligne3"></div>
+        </div>
+
+        <section class="MenuNavOverlay">
+          <h2
+            data-lang-fr="Les Fils du Roi"
+            data-lang-en="The King's Heirs"
+            class="TitreMasque"
+          >
+            Les Fils du Roi
+          </h2>
+          <div id="LogoEtWordmark">
+            <div id="ConteneurLogoNav">
+              <a aria-label="Page d'accueil" href="index.html" class="Logo"></a>
+            </div>
+            <img
+              id="Wordmark"
+              src="assets/images/wordmark_silver_fond_sombre.svg"
+              alt="Logo Les Fils du Roi"
+            />
+          </div>
+          <div id="ConteneurNav">
+            <div class="ConteneurNavLienAccueil">
+              <a
+                aria-label="Page d'accueil"
+                id="NavLienAccueil"
+                href="index.html"
+                data-lang-fr="Accueil"
+                data-lang-en="Home"
+                >Accueil</a
+              >
+            </div>
+            <nav>
+              <div>
+                <a
+                  aria-label="Page À propos"
+                  href="page-apropos.html"
+                  data-lang-fr="À propos du projet "
+                  data-lang-en="About the project"
+                  >À propos du projet</a
+                >
+                <a
+                  aria-label="Page À propos section genèse"
+                  class="BoutonNavOverlay"
+                  href="page-apropos.html#TitrePageApropos"
+                  data-lang-fr="La genèse du projet"
+                  data-lang-en="The genesis of the project"
+                  >La genèse du projet</a
+                >
+                <a
+                  aria-label="Page À propos section auteur"
+                  class="BoutonNavOverlay"
+                  href="page-apropos.html#NavigationAuteur"
+                  data-lang-fr="Son auteur"
+                  data-lang-en="Its author"
+                  >Son auteur</a
+                >
+              </div>
+              <div>
+                <a
+                  aria-label="Page Univers"
+                  href="page-univers.html"
+                  data-lang-fr="Parcourez l'univers"
+                  data-lang-en="Travel the universe"
+                  >Parcourez l'univers</a
+                >
+                <a
+                  aria-label="Page Personnages"
+                  href="page-personnages.html"
+                  data-lang-fr="Personnages"
+                  data-lang-en="Characters"
+                  >Personnages</a
+                >
+                <a
+                  aria-label="Page Géographie"
+                  href="page-geographie.html"
+                  data-lang-fr="Géographie"
+                  data-lang-en="Geography"
+                  >Géographie</a
+                >
+                <a
+                  aria-label="Page Cultures"
+                  href="page-cultures.html"
+                  data-lang-fr="Cultures"
+                  data-lang-en="Culture"
+                  >Cultures</a
+                >
+                <a
+                  aria-label="Page Histoire"
+                  href="page-histoire.html"
+                  data-lang-fr="Histoire"
+                  data-lang-en="History"
+                  >Histoire</a
+                >
+              </div>
+              <div>
+                <a
+                  aria-label="Page Romans"
+                  href="page-romans.html"
+                  data-lang-fr="Les romans"
+                  data-lang-en="The novels"
+                  >Les romans</a
+                >
+                <a
+                  aria-label="Page Romans"
+                  class="BoutonNavOverlay"
+                  href="page-romans.html"
+                  data-lang-fr="Découvrir"
+                  data-lang-en="Discover"
+                  >Découvrir</a
+                >
+                <a
+                  aria-label="Page Romans"
+                  class="BoutonNavOverlay"
+                  href="page-romans.html"
+                  data-lang-fr="Acheter"
+                  data-lang-en="Purchase"
+                  >Acheter</a
+                >
+              </div>
+              <div>
+                <a
+                  aria-label="Page jeu de rôle, lobby"
+                  href="page-jdr-lobby.html"
+                  data-lang-fr="Le jeu de rôle"
+                  data-lang-en="The role play"
+                  >Le jeu de rôle</a
+                >
+                <a
+                  aria-label="Page jeu de rôle, mon compte"
+                  class="BoutonNavOverlay"
+                  href="page-jdr-lobby.html"
+                  data-lang-fr="Mon compte"
+                  data-lang-en="My account"
+                  >Mon compte</a
+                >
+                <a
+                  aria-label="Page jeu de rôle, ressources"
+                  class="BoutonNavOverlay"
+                  href="page-jdr-lobby.html"
+                  data-lang-fr="Ressources"
+                  data-lang-en="Ressources"
+                  >Ressources</a
+                >
+                <a
+                  aria-label="Page jeu de rôle, jouer"
+                  class="BoutonNavOverlay"
+                  href="page-jdr-lobby.html"
+                  data-lang-fr="Jouer"
+                  data-lang-en="Play"
+                >
+                  Jouer</a
+                >
+              </div>
+            </nav>
+            <div class="ConteneurNavLienAccueil"></div>
+          </div>
+          <div class="LiensLegaux" id="HeaderLiensLegaux">
+            <a
+              aria-label="mentions légales"
+              href="page-mentionslegales.html"
+              data-lang-fr="Mentions légales"
+              data-lang-en="Legal notices"
+              >Mentions légales</a
+            >
+            <span>•</span>
+            <a
+              aria-label="Page cookies"
+              href="page-cookies.html"
+              data-lang-fr="Gestion des cookies"
+              data-lang-en="Cookie management"
+              >Gestion des cookies</a
+            >
+            <span>•</span>
+            <a
+              aria-label="Page conditions générales d'utilisation"
+              href="page-cgu.html"
+              data-lang-fr="CGU"
+              data-lang-en="GCU"
+              >CGU</a
+            >
+            <span>•</span>
+            <a
+              aria-label="Page Politique de confidentialité"
+              href="page-confidentialite.html"
+              data-lang-fr="Politique de confidentialité"
+              data-lang-en="Privacy policy"
+              >Politique de confidentialité</a
+            >
+            <span>•</span>
+            <a
+              aria-label="Page contact"
+              href="page-contact.html"
+              data-lang-fr="Contact"
+              data-lang-en="Contact"
+              >Contact</a
+            >
+          </div>
+          <div class="DiscordEtCookies" id="HeaderDiscordEtCookies">
+            <a
+              aria-label="Lien du Discord"
+              target="_blank"
+              href="https://discord.gg/SZ7Vhb59"
+              ><svg
+                tabindex="0"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 50 50"
+              >
+                <path
+                  d="M42.298,11.65c-0.676-1.021-1.633-1.802-2.768-2.256c-2.464-0.988-4.583-1.648-6.479-2.02	C31.721,7.114,30.404,7.768,29.771,9l-0.158,0.308c-1.404-0.155-2.895-0.207-4.593-0.164c-1.741-0.042-3.237,0.009-4.643,0.164	L20.22,9c-0.633-1.232-1.952-1.885-3.279-1.625c-1.896,0.371-4.016,1.031-6.479,2.02c-1.134,0.454-2.091,1.234-2.768,2.256	c-4.721,7.131-6.571,14.823-5.655,23.517c0.032,0.305,0.202,0.578,0.461,0.741c3.632,2.29,6.775,3.858,9.891,4.936	c1.303,0.455,2.748-0.054,3.517-1.229l1.371-2.101c-1.092-0.412-2.158-0.9-3.18-1.483c-0.479-0.273-0.646-0.884-0.373-1.363	c0.273-0.481,0.884-0.65,1.364-0.373c3.041,1.734,6.479,2.651,9.942,2.651s6.901-0.917,9.942-2.651	c0.479-0.277,1.09-0.108,1.364,0.373c0.273,0.479,0.106,1.09-0.373,1.363c-1.056,0.603-2.16,1.105-3.291,1.524l1.411,2.102	c0.581,0.865,1.54,1.357,2.528,1.357c0.322,0,0.647-0.053,0.963-0.161c3.125-1.079,6.274-2.649,9.914-4.944	c0.259-0.163,0.429-0.437,0.461-0.741C48.869,26.474,47.019,18.781,42.298,11.65z M18.608,28.983c-1.926,0-3.511-2.029-3.511-4.495	c0-2.466,1.585-4.495,3.511-4.495s3.511,2.029,3.511,4.495C22.119,26.954,20.534,28.983,18.608,28.983z M31.601,28.957	c-1.908,0-3.478-2.041-3.478-4.522s1.57-4.522,3.478-4.522c1.908,0,3.478,2.041,3.478,4.522S33.509,28.957,31.601,28.957z"
+                />
+              </svg>
+            </a>
+            <img
+              class="tarteaucitronManager"
+              tabindex="0"
+              src="assets/icons/icone-cookie.svg"
+              alt="Icone cookies"
+            />
+          </div>
+        </section>
+      </div>
+      <div id="HeaderFlexBas">
+        <!-- Icône Accessibilité  -->
+        <svg
+          class="IconesMenu"
+          id="IconeAccessibilite"
+          tabindex="0"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 15 15"
+        >
+          <title>Icône d'accessibilité</title>
+          <path
+            fill="currentColor"
+            fill-rule="evenodd"
+            d="M.877 7.5a6.623 6.623 0 1 1 13.246 0a6.623 6.623 0 0 1-13.246 0M7.5 1.827a5.673 5.673 0 1 0 0 11.346a5.673 5.673 0 0 0 0-11.346M7.125 9c-.055.127-.793 2.96-.793 2.96a.5.5 0 1 1-.966-.26s.88-2.827.88-3.43V6.801l-1.958-.525a.5.5 0 1 1 .258-.966s1.654.563 2.3.563h1.309c.645 0 2.298-.563 2.298-.563a.5.5 0 1 1 .26.966l-1.966.527V8.27c0 .603.88 3.427.88 3.427a.5.5 0 0 1-.966.259S7.92 9.127 7.869 9c-.05-.127-.219-.127-.219-.127h-.307s-.173 0-.218.127M7.5 5.12a1.125 1.125 0 1 0 0-2.25a1.125 1.125 0 0 0 0 2.25"
+            clip-rule="evenodd"
+          />
+        </svg>
+        <!-- Barre de Recherche   -->
+        <div id="BarreDeRecherche">
+          <input
+            type="text"
+            id="RechercheInput"
+            placeholder="Rechercher..."
+            data-lang-fr="Rechercher..."
+            data-lang-en="Search..."
+            aria-label="Barre de recherche" <!-- Aria-label fournit des informations aux lecteurs d'écran-->
+          />
+          <button type="submit" aria-label="Bouton Rechercher">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <g transform="translate(0,0)">
+                <path
+                  d="M333.78 20.188c-39.97 0-79.96 15.212-110.405 45.656-58.667 58.667-60.796 152.72-6.406 213.97l-15.782 15.748 13.25 13.25 15.75-15.78c61.248 54.39 155.3 52.26 213.968-6.407 60.887-60.886 60.888-159.894 0-220.78C413.713 35.4 373.753 20.187 333.78 20.187zm0 18.562c35.15 0 70.285 13.44 97.158 40.313 53.745 53.745 53.744 140.6 0 194.343-51.526 51.526-133.46 53.643-187.5 6.375l.218-.217c-2.35-2.05-4.668-4.17-6.906-6.407-2.207-2.206-4.288-4.496-6.313-6.812l-.218.22c-47.27-54.04-45.152-135.976 6.374-187.502C263.467 52.19 298.63 38.75 333.78 38.75zm0 18.813c-30.31 0-60.63 11.6-83.81 34.78-46.362 46.362-46.362 121.234 0 167.594 10.14 10.142 21.632 18.077 33.905 23.782-24.91-19.087-40.97-49.133-40.97-82.94 0-15.323 3.292-29.888 9.22-43-4.165 20.485.44 40.88 14.47 54.907 24.583 24.585 68.744 20.318 98.624-9.562 29.88-29.88 34.146-74.04 9.56-98.625-2.375-2.376-4.943-4.473-7.655-6.313 45.13 8.648 79.954 46.345 84.25 92.876 4.44-35.07-6.82-71.726-33.813-98.72-23.18-23.18-53.47-34.78-83.78-34.78zM176.907 297.688L42.094 432.5l34.562 34.563L211.47 332.25l-34.564-34.563zM40 456.813L24 472.78 37.22 486l15.968-16L40 456.812z"
+                  fill="currentColor"
+                  fill-opacity="1"
+                  transform="translate(512, 0) scale(-1, 1) rotate(0, 256, 256) skewX(0) skewY(0)"
+                ></path>
+              </g>
+            </svg>
+          </button>
+          <div id="RechercheResultats"></div>
+        </div>
+        <!-- Icône Discord  -->
+        <a
+          id="HeaderIconeDiscord"
+          aria-label="Lien du Discord"
+          target="_blank"
+          href="https://discord.gg/SZ7Vhb59"
+          ><svg
+            class="IconesMenu"
+            
+            tabindex="0"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 50 50"
+            width="50px"
+            height="50px"
+          >
+            <path
+              d="M42.298,11.65c-0.676-1.021-1.633-1.802-2.768-2.256c-2.464-0.988-4.583-1.648-6.479-2.02	C31.721,7.114,30.404,7.768,29.771,9l-0.158,0.308c-1.404-0.155-2.895-0.207-4.593-0.164c-1.741-0.042-3.237,0.009-4.643,0.164	L20.22,9c-0.633-1.232-1.952-1.885-3.279-1.625c-1.896,0.371-4.016,1.031-6.479,2.02c-1.134,0.454-2.091,1.234-2.768,2.256	c-4.721,7.131-6.571,14.823-5.655,23.517c0.032,0.305,0.202,0.578,0.461,0.741c3.632,2.29,6.775,3.858,9.891,4.936	c1.303,0.455,2.748-0.054,3.517-1.229l1.371-2.101c-1.092-0.412-2.158-0.9-3.18-1.483c-0.479-0.273-0.646-0.884-0.373-1.363	c0.273-0.481,0.884-0.65,1.364-0.373c3.041,1.734,6.479,2.651,9.942,2.651s6.901-0.917,9.942-2.651	c0.479-0.277,1.09-0.108,1.364,0.373c0.273,0.479,0.106,1.09-0.373,1.363c-1.056,0.603-2.16,1.105-3.291,1.524l1.411,2.102	c0.581,0.865,1.54,1.357,2.528,1.357c0.322,0,0.647-0.053,0.963-0.161c3.125-1.079,6.274-2.649,9.914-4.944	c0.259-0.163,0.429-0.437,0.461-0.741C48.869,26.474,47.019,18.781,42.298,11.65z M18.608,28.983c-1.926,0-3.511-2.029-3.511-4.495	c0-2.466,1.585-4.495,3.511-4.495s3.511,2.029,3.511,4.495C22.119,26.954,20.534,28.983,18.608,28.983z M31.601,28.957	c-1.908,0-3.478-2.041-3.478-4.522s1.57-4.522,3.478-4.522c1.908,0,3.478,2.041,3.478,4.522S33.509,28.957,31.601,28.957z"
+            />
+          </svg>
+        </a>
+      </div>
+    </header>
+    <main>
+      <!--référencement -->
+      <h1 class="TitreMasque">Les Fils du Roi</h1>
+      <!-- Section Accueil -->
+      <section id="IndexSectionAccueil">
+        <h2 class="TitreMasque" data-lang-fr="Accueil" data-lang-en="Home">
+          Accueil
+        </h2>
+        <div></div>
+        <img
+          src="assets/images/logo_blanc_et_or_ombre_768x180.png"
+          srcset="
+            assets/images/logo_blanc_et_or_ombre_768x180.png   768w,
+            assets/images/logo_blanc_et_or_ombre_990x233.png   990w,
+            assets/images/logo_blanc_et_or_ombre_1198x281.png 1198w,
+            assets/images/logo_blanc_et_or_ombre_2558x601.png 2558w,
+            assets/images/logo_blanc_et_or_ombre_3839x902.png 3839w
+          "
+          sizes=" (min-width: 3839px) 3839px, 
+                    (min-width: 2558px) 2558px,
+                    (min-width: 1198px) 1198px, 
+                    (min-width: 990px) 990px,
+                    (min-width: 768px) 768px,
+                    100vw"
+          alt="Logo Les Fils du Roi"
+        />
+        <nav>
+          <hr id="BordureNavHaut" />
+          <ul>
+            <li>
+              <a
+                aria-label="page À propos"
+                id="NavApropos"
+                href="page-apropos.html"
+                data-lang-fr="À Propos"
+                data-lang-en="About"
+                >À Propos</a
+              >
+              <p
+                id="TexteApropos"
+                data-lang-fr="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+              cum inventore fuga? Quisquam qui sequi minima ea maxime earum?
+              Quam quasi mollitia doloremque repellat non illum recusandae ut
+              dolorem sit!"
+                data-lang-en="Lorem anglais Lorem anglais Lorem anglais Lorem anglais Lorem 
+              anglais Lorem anglais Lorem anglais Lorem anglais Lorem anglais 
+              Lorem anglais Lorem anglais Lorem anglais Lorem anglais Lorem 
+              anglais."
+              >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+                cum inventore fuga? Quisquam qui sequi minima ea maxime earum?
+                Quam quasi mollitia doloremque repellat non illum recusandae ut
+                dolorem sit!
+              </p>
+            </li>
+            <li>
+              <a
+                aria-label="page Univers"
+                id="NavUnivers"
+                href="page-univers.html"
+                data-lang-fr="Univers"
+                data-lang-en="Universe"
+                >Univers</a
+              >
+              <p
+                id="TexteUnivers"
+                data-lang-fr="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+              cum inventore fuga? Quisquam qui sequi minima ea maxime earum?
+              Quam quasi mollitia doloremque repellat non illum recusandae ut
+              dolorem sit!"
+                data-lang-en="Lorem anglais Lorem anglais Lorem anglais Lorem anglais Lorem 
+              anglais Lorem anglais Lorem anglais Lorem anglais Lorem anglais 
+              Lorem anglais Lorem anglais Lorem anglais Lorem anglais Lorem 
+              anglais."
+              >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+                cum inventore fuga? Quisquam qui sequi minima ea maxime earum?
+                Quam quasi mollitia doloremque repellat non illum recusandae ut
+                dolorem sit!
+              </p>
+            </li>
+            <li>
+              <a
+                aria-label="page Romans"
+                id="NavRomans"
+                href="page-romans.html"
+                data-lang-fr="Romans"
+                data-lang-en="Novels"
+                >Romans</a
+              >
+              <p
+                id="TexteRomans"
+                data-lang-fr="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+              cum inventore fuga? Quisquam qui sequi minima ea maxime earum?
+              Quam quasi mollitia doloremque repellat non illum recusandae ut
+              dolorem sit!"
+                data-lang-en="Lorem anglais Lorem anglais Lorem anglais Lorem anglais Lorem 
+              anglais Lorem anglais Lorem anglais Lorem anglais Lorem anglais 
+              Lorem anglais Lorem anglais Lorem anglais Lorem anglais Lorem 
+              anglais."
+              >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+                cum inventore fuga? Quisquam qui sequi minima ea maxime earum?
+                Quam quasi mollitia doloremque repellat non illum recusandae ut
+                dolorem sit!
+              </p>
+            </li>
+            <li>
+              <a
+                aria-label="page Jeu de Rôle"
+                id="NavJDR"
+                href="page-jdr-lobby.html"
+                data-lang-fr="Jeu de Rôle"
+                data-lang-en="Role Play"
+                >Jeu de Rôle</a
+              >
+              <p
+                id="TexteJDR"
+                data-lang-fr="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+              cum inventore fuga? Quisquam qui sequi minima ea maxime earum?
+              Quam quasi mollitia doloremque repellat non illum recusandae ut
+              dolorem sit!"
+                data-lang-en="Lorem anglais Lorem anglais Lorem anglais Lorem anglais Lorem 
+              anglais Lorem anglais Lorem anglais Lorem anglais Lorem anglais 
+              Lorem anglais Lorem anglais Lorem anglais Lorem anglais Lorem 
+              anglais."
+              >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+                cum inventore fuga? Quisquam qui sequi minima ea maxime earum?
+                Quam quasi mollitia doloremque repellat non illum recusandae ut
+                dolorem sit!
+              </p>
+            </li>
+          </ul>
+          <hr id="BordureNavBas" />
+        </nav>
+      </section>
+      <div id="BarreClignottante"></div>
+      <!-- Section Univers -->
+      <section id="SectionUnivers">
+        <h2
+          data-lang-fr="Explorez un monde à la croisée des destins"
+          data-lang-en="Explore a world at the crossroads of destinies"
+        >
+          Explorez un monde à la croisée des destins
+        </h2>
+        <div>
+          <div>
+            <!-- Image des chevaliers devant l'escalier, en background-image dans une div pour pouvoir la tranformer comme je voulais-->
+          </div>
+          <p
+            data-lang-fr="Ut ornare fringilla quam, eu pretium purus porttitor vel. Nam in
+          urna vitae sapien consequat semper. Nunc luctus elit eget
+          &lt;strong&gt;sollicitudin&lt;/strong&gt; aliquam. Nullam a consequat risus, id
+          suscisa. Nulla luctus, neque ut feugiat blandit, tellus lorem
+          &lt;strong&gt;finibus&lt;/strong&gt; ligula, ac cursus eros
+          &lt;strong&gt;lectus&lt;/strong&gt; ut eros. Suspendisse tristique consequat
+          ante, ac viverra urna egestas amcorper."
+            data-lang-en="Ut ornare anglais quam, eu anglais purus anglais vel. Nam in
+          urna vitae anglais anglais semper. Nunc luctus elit eget
+          &lt;strong&gt;anglais&lt;/strong&gt; anglais. Nullam a consequat risus, id
+          suscisa. Nulla luctus, neque ut anglais blandit, tellus lorem
+          &lt;strong&gt;finibus&lt;/strong&gt; ligula, ac cursus eros
+          &lt;strong&gt;lectus&lt;/strong&gt; ut eros. Suspendisse anglais consequat
+          ante, ac viverra urna egestas amcorper."
+          >
+            Ut ornare fringilla quam, eu pretium purus porttitor vel. Nam in
+            urna vitae sapien consequat semper. Nunc luctus elit eget
+            <strong>sollicitudin</strong> aliquam. Nullam a consequat risus, id
+            suscisa. Nulla luctus, neque ut feugiat blandit, tellus lorem
+            <strong>finibus</strong> ligula, ac cursus eros
+            <strong>lectus</strong> ut eros. Suspendisse tristique consequat
+            ante, ac viverra urna egestas amcorper.
+          </p>
+        </div>
+        <a aria-label="page Univers" href="page-univers.html">
+          <div
+            class="Bouton"
+            id="BoutonUnivers"
+            data-lang-fr="Explorez l'univers"
+            data-lang-en="Explore the universe"
+          >
+            Explorez l'univers
+          </div>
+        </a>
+      </section>
+      <img
+        class="Separateur"
+        src="assets/icons/separateur.svg"
+        alt="ligne de démarcation"
+      />
+      <!-- Section Adaptations -->
+      <section id="SectionAdaptations">
+        <h2
+          data-lang-fr="Découvrez les multiples adaptations de l'univers"
+          data-lang-en="Discover the multiple adaptations of the universe"
+        >
+          Découvrez les multiples adaptations de l'univers
+        </h2>
+        <div>
+          <div>
+            <div>
+              <video
+                class="VideoSansControls"
+                poster="assets/images/poster_video_presentation_jdr_500x376.jpg"
+              >
+                <source
+                  src="assets/videos/presentation_jdr.webm"
+                  type="video/webm"
+                />
+                <source
+                  src="assets/videos/presentation_jdr.mp4"
+                  type="video/mp4"
+                />
+                <source
+                  src="assets/videos/presentation_jdr.mov"
+                  type="video/mov"
+                />
+                Votre navigateur ne permet pas de lire les vidéos.
+              </video>
+              <div class="SonOn"></div>
+            </div>
+            <a aria-label="page Romans" href="page-romans.html"
+              ><div
+                class="Bouton"
+                id="BoutonRomans"
+                data-lang-fr="Tout commence par&lt;br /&gt;une histoire"
+                data-lang-en="It all starts with&lt;br /&gt;a story"
+              >
+                Tout commence par<br />une histoire
+              </div></a
+            >
+          </div>
+          <div>
+            <div>
+              <video
+                class="VideoSansControls"
+                poster="assets/images/poster_video_presentation_jdr_500x376.jpg"
+              >
+                <source
+                  src="assets/videos/presentation_jdr.webm"
+                  type="video/webm"
+                />
+                <source
+                  src="assets/videos/presentation_jdr.mp4"
+                  type="video/mp4"
+                />
+                <source
+                  src="assets/videos/presentation_jdr.mov"
+                  type="video/mov"
+                />
+                Votre navigateur ne permet pas de lire les vidéos.
+              </video>
+              <div class="SonOn"></div>
+            </div>
+            <a aria-label="page jeu de Rôle" href="page-jdr-lobby.html"
+              ><div
+                class="Bouton"
+                id="BoutonJDR"
+                data-lang-fr="Forgez votre propre&lt;br /&gt;légende"
+                data-lang-en="Forge your own&lt;br /&gt;legend"
+              >
+                Forgez votre propre<br />légende
+              </div></a
+            >
+          </div>
+        </div>
+      </section>
+      <img
+        id="FlecheHaut"
+        src="assets/icons/fleche_haut.png"
+        alt="Flèche de retour en haut de page"
+      />
+    </main>
+    <!-- Footer -->
+    <footer>
+      <nav>
+        <div>
+          <a
+            aria-label="page univers"
+            href="page-univers.html"
+            data-lang-fr="Univers"
+            data-lang-en="Univers"
+            >Univers</a
+          >
+          <a
+            aria-label="page personnages"
+            href="page-personnages.html"
+            data-lang-fr="Personnages"
+            data-lang-en="Characters"
+            >Personnages</a
+          >
+          <a
+            aria-label="page Géographie"
+            href="page-geographie.html"
+            data-lang-fr="Géographie"
+            data-lang-en="geography"
+            >Géographie</a
+          >
+          <a
+            aria-label="page Cultures"
+            href="page-cultures.html"
+            data-lang-fr="Cultures"
+            data-lang-en="Culture"
+            >Cultures</a
+          >
+          <a
+            aria-label="page Histoire"
+            href="page-histoire.html"
+            data-lang-fr="Histoire"
+            data-lang-en="History"
+            >Histoire</a
+          >
+        </div>
+        <div>
+          <a
+            aria-label="page À propos"
+            href="page-apropos.html"
+            data-lang-fr="À propos"
+            data-lang-en="About"
+            >À propos</a
+          >
+          <a
+            aria-label="page À propos section genèse"
+            href="page-apropos.html#TitrePageApropos"
+            data-lang-fr="Genèse"
+            data-lang-en="Genesis"
+            >Genèse</a
+          >
+          <a
+            aria-label="page À propos section auteur"
+            href="page-apropos.html#NavigationAuteur"
+            data-lang-fr="Auteur"
+            data-lang-en="Author"
+            >Auteur</a
+          >
+        </div>
+        <div>
+          <a
+            aria-label="page Accueil"
+            href="index.html"
+            data-lang-fr="Accueil"
+            data-lang-en="Home"
+            >Accueil</a
+          >
+          <a aria-label="page Accueil" href="index.html"
+            ><img
+              class="Logo"
+              src="assets/icons/logo.svg"
+              alt="Logo Les Fils du Roi"
+          /></a>
+        </div>
+        <div>
+          <a
+            aria-label="page Romans"
+            href="page-romans.html"
+            data-lang-fr="Romans"
+            data-lang-en="Novels"
+            >Romans</a
+          >
+          <a
+            aria-label="page Romans"
+            href="page-romans.html"
+            data-lang-fr="Découvrir"
+            data-lang-en="Discover"
+            >Découvrir</a
+          >
+          <a
+            aria-label="page Romans"
+            href="page-romans.html"
+            data-lang-fr="Acheter"
+            data-lang-en="Purchase"
+            >Acheter</a
+          >
+        </div>
+        <div>
+          <a
+            aria-label="page Jeu de Rôle"
+            href="page-jdr-lobby.html"
+            data-lang-fr="Jeu de rôle"
+            data-lang-en="Role play"
+            >Jeu de rôle</a
+          >
+          <a
+            aria-label="page jeu de Rôle, mon compte"
+            href="page-jdr-lobby.html"
+            data-lang-fr="Mon compte"
+            data-lang-en="My account"
+            >Mon compte</a
+          >
+          <a
+            aria-label="page jeu de Rôle, resources"
+            href="page-jdr-lobby.html"
+            data-lang-fr="Ressources"
+            data-lang-en="Resources"
+            >Ressources</a
+          >
+          <a
+            aria-label="page jeu de Rôle, jouer"
+            href="page-jdr-lobby.html"
+            data-lang-fr="Jouer"
+            data-lang-en="Play"
+            >Jouer</a
+          >
+        </div>
+      </nav>
+      <div class="LiensLegaux">
+        <a
+          aria-label="page mentions légales"
+          href="page-mentionslegales.html"
+          data-lang-fr="Mentions légales"
+          data-lang-en="Legal notices"
+          >Mentions légales</a
+        >
+        <span>•</span>
+        <a
+          aria-label="page cookies"
+          href="page-cookies.html"
+          data-lang-fr="Gestion des cookies"
+          data-lang-en="Cookie management"
+          >Gestion des cookies</a
+        >
+        <span>•</span>
+        <a
+          aria-label="page conditions générales d'utilisation"
+          href="page-cgu.html"
+          data-lang-fr="CGU"
+          data-lang-en="GCU"
+          >CGU</a
+        >
+        <span>•</span>
+        <a
+          aria-label="page politique de confidentialité"
+          href="page-confidentialite.html"
+          data-lang-fr="Politique de confidentialité"
+          data-lang-en="Privacy policy"
+          >Politique de confidentialité</a
+        >
+        <span>•</span>
+        <a
+          aria-label="page contact"
+          href="page-contact.html"
+          data-lang-fr="Contact"
+          data-lang-en="Contact"
+          >Contact</a
+        >
+      </div>
+      <div class="DiscordEtCookies">
+        <a
+          aria-label="lien Discord"
+          target="_blank"
+          href="https://discord.gg/SZ7Vhb59"
+          ><svg
+            tabindex="0"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 50 50"
+          >
+            <path
+              d="M42.298,11.65c-0.676-1.021-1.633-1.802-2.768-2.256c-2.464-0.988-4.583-1.648-6.479-2.02	C31.721,7.114,30.404,7.768,29.771,9l-0.158,0.308c-1.404-0.155-2.895-0.207-4.593-0.164c-1.741-0.042-3.237,0.009-4.643,0.164	L20.22,9c-0.633-1.232-1.952-1.885-3.279-1.625c-1.896,0.371-4.016,1.031-6.479,2.02c-1.134,0.454-2.091,1.234-2.768,2.256	c-4.721,7.131-6.571,14.823-5.655,23.517c0.032,0.305,0.202,0.578,0.461,0.741c3.632,2.29,6.775,3.858,9.891,4.936	c1.303,0.455,2.748-0.054,3.517-1.229l1.371-2.101c-1.092-0.412-2.158-0.9-3.18-1.483c-0.479-0.273-0.646-0.884-0.373-1.363	c0.273-0.481,0.884-0.65,1.364-0.373c3.041,1.734,6.479,2.651,9.942,2.651s6.901-0.917,9.942-2.651	c0.479-0.277,1.09-0.108,1.364,0.373c0.273,0.479,0.106,1.09-0.373,1.363c-1.056,0.603-2.16,1.105-3.291,1.524l1.411,2.102	c0.581,0.865,1.54,1.357,2.528,1.357c0.322,0,0.647-0.053,0.963-0.161c3.125-1.079,6.274-2.649,9.914-4.944	c0.259-0.163,0.429-0.437,0.461-0.741C48.869,26.474,47.019,18.781,42.298,11.65z M18.608,28.983c-1.926,0-3.511-2.029-3.511-4.495	c0-2.466,1.585-4.495,3.511-4.495s3.511,2.029,3.511,4.495C22.119,26.954,20.534,28.983,18.608,28.983z M31.601,28.957	c-1.908,0-3.478-2.041-3.478-4.522s1.57-4.522,3.478-4.522c1.908,0,3.478,2.041,3.478,4.522S33.509,28.957,31.601,28.957z"
+            />
+          </svg>
+        </a>
+        <img
+          class="tarteaucitronManager"
+          tabindex="0"
+          src="assets/icons/icone-cookie.svg"
+          alt="Icone cookies"
+        />
+      </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

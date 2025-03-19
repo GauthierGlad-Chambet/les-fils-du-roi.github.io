@@ -1,0 +1,122 @@
+[
+    {
+        "title": "Accueil",
+        "titleEn": "Home",
+        "url": "index.html",
+        "description": "Découvrez l'univers des Fils du Roi et commencez votre aventure.",
+        "descriptionEn": "Discover the universe of the Sons of the King and begin your adventure.",
+        "keywords": ["accueil", "introduction", "les fils du roi", "home", "King's Heirs", "start"]
+    },
+    {
+        "title": "À propos",
+        "titleEn": "About",
+        "url": "page-apropos.html",
+        "description": "Découvrez l'univers des Fils du Roi, son histoire et ses origines. Apprenez-en plus sur son auteur, sa vision et ses objectifs.",
+        "descriptionEn": "Learn about the universe of the King's Heirs, its history, and its origins. Discover the author's vision and goals.",
+        "keywords": ["À propos", "Les Fils du Roi", "Histoire", "Origines", "Vision", "Présentation", "Auteur","About", "Sons of the King", "King's Heirs", "History", "Origins", "Introduction", "Author"]
+    },
+    {
+        "title": "Univers",
+        "titleEn": "Universe",
+        "url": "page-univers.html",
+        "description": "Explorez les royaumes et paysages magiques qui composent l'univers.",
+        "descriptionEn": "Explore the kingdoms and magical landscapes that make up the universe.",
+        "keywords": ["univers", "royaumes", "géographie", "magie","universe", "kingdoms", "geography", "magic"]
+    },
+    {
+        "title": "Jeu de rôle",
+        "titleEn": "Role-Playing Game",
+        "url": "page-jdr-lobby.html",
+        "description": "Plongez dans l'univers interactif des Fils du Roi avec notre jeu de rôle. Découvrez les règles, créez votre personnage et embarquez dans une aventure unique.",
+        "descriptionEn": "Dive into the interactive universe of the King's Heirs with our role-playing game. Discover the rules, create your character, and embark on a unique adventure.",
+        "keywords": ["Jeu de rôle", "Les Fils du Roi", "Aventure", "Personnage", "Règles JDR", "RPG","Role-Playing Game", "King's Heirs", "Sons of the King", "Adventure", "Character", "RPG Rules", "RPG"]
+    },
+    {
+        "title": "Romans",
+        "titleEn": "Novels",
+        "url": "page-romans.html",
+        "description": "Explorez les récits captivants des Fils du Roi à travers nos romans. Plongez dans un monde riche en intrigues, en héros et en mystères.",
+        "descriptionEn": "Discover the captivating stories of the King's Heirs through our novels. Immerse yourself in a world rich with intrigue, heroes, and mysteries.",
+        "keywords": ["Romans", "Les Fils du Roi", "Littérature", "Histoire", "Intrigue", "Aventure","Novels", "Sons of the King", "King's Heirs", "Literature", "Story", "Adventure"]
+    },
+    {
+        "title": "Le Flux",
+        "titleEn": "The Flux",
+        "url": "page-flux.html",
+        "description": "Découvrez le Flux, source de magie et d'énergie dans l'univers des Fils du Roi, et explorez ses mystères et son influence sur les royaumes.",
+        "descriptionEn": "Discover the Flow, the source of magic and energy in the universe of the King's Heirs. Uncover its mysteries and its influence on the realms.",
+        "keywords": ["Flux", "magie", "énergie", "univers fantastique", "Fils du Roi", "pouvoirs mystiques"]
+    },
+    {
+        "title": "Personnages",
+        "titleEn": "Characters",
+        "url": "page-personnages.html",
+        "description": "Rencontrez les héros et antagonistes de l'univers des Fils du Roi.",
+        "descriptionEn": "Meet the heroes and antagonists of the King's Heirs universe.",
+        "keywords": ["personnages", "héros", "antagonistes", "aventures","characters", "heroes", "antagonists", "adventures"]
+    },
+    {
+        "title": "Cultures",
+        "titleEn": "Cultures",
+        "url": "page-cultures.html",
+        "description": "Découvrez la richesses des différentes cultures qui parsèment Belleterre.",
+        "descriptionEn": "Discover the richness of the diverse cultures that populate Belleterre.",
+        "keywords": ["cultures", "pays", "groupe", "ethnie", "countries", "group", "ethnicity"]
+    },
+    {
+        "title": "Géographie",
+        "titleEn": "Geography",
+        "url": "page-geographie.html",
+        "description": "Explorez la géographie de Belleterre et découvrez ses paysages variés, ses régions emblématiques et leurs secrets.",
+        "descriptionEn": "Explore the geography of Belleterre and discover its diverse landscapes, iconic regions, and their secrets.",
+        "keywords": ["géographie", "paysages", "régions", "Belleterre", "cartes", "territoires fantastiques","geography", "landscapes", "regions", "maps", "fantasy territories"]
+    },
+    {
+        "title": "L'histoire de Belleterre",
+        "titleEn": "The history of Belleterre",
+        "url": "page-histoire.html",
+        "description": "Plongez dans l'histoire fascinante de Belleterre, de ses origines légendaires à ses événements marquants.",
+        "descriptionEn": "Immerse yourself in the fascinating history of Belleterre, from its legendary origins to its momentous events.",
+        "keywords": ["histoire", "Belleterre", "origines", "chroniques", "événements historiques", "univers fantastique","history", "origins", "chronicles", "historical events", "fantastic universe"]
+      },
+      {
+        "title": "Contact",
+        "titleEn": "Contact",
+        "url": "page-contact.html",
+        "description": "Contactez-nous pour toute question, demande ou retour concernant l'univers des Fils du Roi.",
+        "descriptionEn": "Contact us for any questions, requests or feedback regarding the universe of the King's Heirs.",
+        "keywords": ["contact", "support", "questions", "Fils du Roi", "retours", "communication", "Son of the King", "King's Heirs", "feedback"]
+      },
+      {
+        "title": "Politique de confidentialité",
+        "titleEn": "Privacy policy",
+        "url": "page-confidentialite.html",
+        "description": "Consultez notre politique de confidentialité pour comprendre comment vos données sont collectées et utilisées sur notre site.",
+        "descriptionEn": "Review our privacy policy to understand how your data is collected and used on our site.",
+        "keywords": ["politique de confidentialité", "données personnelles", "confidentialité", "Fils du Roi", "protection des données","privacy policy", "personal data", "confidentiality", "Son of the King", "King's Heirs", "data protection"]
+      },
+      {
+        "title": "Cookies",
+        "titleEn": "Cookies",
+        "url": "page-cookies.html",
+        "description": "Découvrez comment nous utilisons les cookies sur notre site et comment vous pouvez gérer vos préférences.",
+        "descriptionEn": "Find out how we use cookies on our site and how you can manage your preferences.",
+        "keywords": ["cookies", "préférences", "suivi", "Fils du Roi", "utilisation des cookies","preferences", "following", "Son of the King", "King's Heirs", "use of cookies"]
+      },
+      {
+        "title": "Conditions générales d'utilisation",
+        "titleEn": "General conditions of use",
+        "url": "page-cgu.html",
+        "description": "Prenez connaissance des conditions générales d'utilisation qui régissent votre navigation sur notre site.",
+        "descriptionEn": "Please read the general conditions of use which govern your navigation on our site.",
+        "keywords": ["CGU", "conditions d'utilisation", "règlement", "Fils du Roi", "navigation","GCU", "conditions of use", "regulations", "Son of the King", "King's Heirs", "navigation"]
+      },
+      {
+        "title": "Mentions légales",
+        "titleEn": "Legal notices",
+        "url": "page-mentionslegales.html",
+        "description": "Consultez nos mentions légales pour connaître les informations obligatoires concernant notre site.",
+        "descriptionEn": "Consult our legal notices to find out the mandatory information concerning our site.",
+        "keywords": ["mentions légales", "informations", "Fils du Roi", "site officiel", "détails légaux","legal notices", "information", "Fils du Roi", "official site", "legal details"]
+      }
+]
