@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1686 1678.6">
+  <!-- Generator: Adobe Illustrator 29.0.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 192)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .st0, .st5 {
+        display: none;
+      }
+
+      .st0, .st2, .st3 {
+        fill: none;
+      }
+
+      .st1 {
+        fill: url(#Dégradé_sans_nom_2);
+      }
+
+      .st1, .st4 {
+        stroke-width: 10px;
+      }
+
+      .st6 {
+        fill: #fff;
+      }
+
+      .st5 {
+        fill: url(#Dégradé_sans_nom);
+      }
+
+      .st2 {
+        stroke-width: 4px;
+      }
+
+      .st3 {
+        stroke-width: 7px;
+      }
+
+      .st4 {
+        fill: url(#Dégradé_sans_nom_3);
+      }
+    </style>
+    <linearGradient id="Dégradé_sans_nom" data-name="Dégradé sans nom" x1="-4604.6" y1="149.9" x2="6076.6" y2="149.9" gradientTransform="translate(0 774)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset="0" stop-color="#000800"/>
+      <stop offset="0" stop-color="#001000"/>
+      <stop offset=".2" stop-color="#020"/>
+      <stop offset=".3" stop-color="#002e00"/>
+      <stop offset=".5" stop-color="#003500"/>
+      <stop offset="1" stop-color="#003700"/>
+      <stop offset="1" stop-color="#003700"/>
+      <stop offset="1" stop-color="#003700"/>
+      <stop offset="1" stop-color="#003700"/>
+      <stop offset="1" stop-color="#003700"/>
+      <stop offset="1" stop-color="#003700"/>
+    </linearGradient>
+    <linearGradient id="Dégradé_sans_nom_2" data-name="Dégradé sans nom 2" x1="417.2" y1="89.7" x2="845.9" y2="89.7" gradientTransform="translate(0 774)" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#d2ad36"/>
+      <stop offset="1" stop-color="#cba735"/>
+      <stop offset="1" stop-color="#bf9d31"/>
+      <stop offset="1" stop-color="#ad8f2d"/>
+      <stop offset="1" stop-color="#967c27"/>
+      <stop offset="1" stop-color="#7a6520"/>
+      <stop offset="1" stop-color="#584917"/>
+      <stop offset="1" stop-color="#31290d"/>
+      <stop offset="1" stop-color="#060502"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Dégradé_sans_nom_3" data-name="Dégradé sans nom 3" x1="845" y1="89.6" x2="1272.7" y2="89.6" gradientTransform="translate(0 774)" gradientUnits="userSpaceOnUse">
+      <stop offset="1" stop-color="#003700"/>
+      <stop offset="1" stop-color="#003700"/>
+      <stop offset="1" stop-color="#003700"/>
+      <stop offset="1" stop-color="#003700"/>
+      <stop offset="1" stop-color="#003700"/>
+    </linearGradient>
+  </defs>
+  <rect class="st5" x="-4604.6" y="-423.8" width="10681.2" height="2695.5"/>
+  <g>
+    <g>
+      <polygon class="st6" points="1671 840.1 1287.7 942.3 1406.7 1071.3 1229.3 1079.2 1429.1 1424.2 1085.7 1225.4 1078.7 1400.8 947.6 1281 947.1 397.3 1076.2 278.3 1084.1 455.7 1429.1 255.9 1230.3 599.3 1405.7 606.3 1285.8 737.4 1671 840.1"/>
+      <polygon class="st6" points="947.1 397.3 947.6 1281 844.9 1666.2 742.7 1282.8 613.7 1401.9 605.8 1224.5 260.8 1424.2 459.6 1080.8 284.2 1073.8 404 942.8 18.8 840.1 402.2 737.9 283.2 608.8 460.5 600.9 260.8 255.9 604.2 454.7 611.2 279.3 742.2 399.2 844.9 14 947.1 397.3"/>
+    </g>
+    <g>
+      <polygon class="st3" points="947.1 397.3 1076.2 278.3 1084.1 455.7 1429.1 255.9 1230.3 599.3 1405.7 606.3 1285.8 737.4 1671 840.1 1287.7 942.3 1406.7 1071.3 1229.3 1079.2 1429.1 1424.2 1085.7 1225.4 1078.7 1400.8 947.6 1281 844.9 1666.2 742.7 1282.8 613.7 1401.9 605.8 1224.5 260.8 1424.2 459.6 1080.8 284.2 1073.8 404 942.8 18.8 840.1 402.2 737.9 283.2 608.8 460.5 600.9 260.8 255.9 604.2 454.7 611.2 279.3 742.2 399.2 844.9 14 947.1 397.3"/>
+      <line class="st2" x1="947.1" y1="397.3" x2="947.6" y2="1281"/>
+    </g>
+  </g>
+  <path class="st1" d="M844.1,1388.1c0-.2,0-.7,0-.7h0c-1.4-399.6,3.7-797.7.9-1047.7l-4.9-.5c-40,22-85.8,44-137.2,63.8-107.1,41.2-205.5,60-284.9,68.4-1.5,49.8-1.2,112,3.9,183.4,4.2,58.8,8.2,114,23.8,185,7.9,36,22.2,99.3,56.1,175.5,25.5,57.2,81.3,164.9,189,266.3,40.8,38.4,70.5,62,95.7,77.3,23.6,14.3,43.9,23.8,56.7,29.3.3,0,.6,0,1,0Z"/>
+  <path class="st4" d="M987,402.9c-51.4-19.8-97.1-41.8-137.2-63.8l-4.9.5c0,87.3.9,1047.7.9,1047.7,0,0,0,.3,0,.7,0,0,0,.1,0,.2.2,0,.5,0,.8,0,12.8-5.5,33.2-14.9,56.9-29.4,25.2-15.3,54.9-38.9,95.7-77.3,107.7-101.3,163.5-209.1,189-266.3,33.9-76.2,48.2-139.4,56.1-175.5,15.6-71,19.6-126.2,23.8-185,5.1-71.4,5.3-133.6,3.9-183.4-79.4-8.4-177.8-27.2-284.9-68.4Z"/>
+  <line class="st0" x1="844.6" y1="336.3" x2="845.3" y2="1398.9"/>
+  <polygon points="845.1 331.5 845.6 331.7 845.1 332.1 844.6 331.7 845.1 331.5"/>
+</svg>
