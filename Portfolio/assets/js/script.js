@@ -358,11 +358,13 @@ ribbon.addEventListener("click", () => {
   } else {
     enableScroll();
   }
+  openSound.play();
 });
 
 closeMenu.addEventListener("click", () => {
   containerMenu.classList.remove("containerMenuOpen");
   enableScroll();
+  closeSound.play();
 });
 
 /////////// FOND DUPLIQUÉ AVEC BLUR ////////////////
